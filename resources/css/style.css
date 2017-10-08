@@ -1,0 +1,107 @@
+/* --------------------------------------------------*/
+/* BASIC SETUP */
+/* --------------------------------------------------*/
+
+* {
+    margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		
+	/* Standard beginning stuff for a page */
+		
+}
+
+html,
+body {
+	background-color: #fff;	
+	color: #efefef;
+	font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+	margin: 0;
+	overflow-x: hidden;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/stock-photo-1-background.jpg);
+	background-size: 100%;
+	text-align: center;
+
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/* --------------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* --------------------------------------------------*/
+
+
+.row {
+  max-width: 1140px; /* standard max-width for a page */
+	margin: 0 auto; /* this makes anything centered */
+}
+
+
+/* --------------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/* --------------------------------------------------*/
+
+.btn:link,
+.btn:visited {
+	display: inline-block;/* to declare it as inline blocks so we can assign padding */
+	padding: 10px 30px;
+	font-size: 150%;
+	text-decoration: none;
+	border-radius: 200px;
+	background-color: transparent;
+	margin: 0 auto;
+	width: 60%;
+	color: white;
+	border-color: black;
+	transition: background-color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+	background-color: #1d1111;
+	
+} 
+header {
+	height: 30vh;
+	font-size: 300%;
+}
+.header-box {
+	margin-top: 30px;
+}
+
+.section-input-output {
+	font-size: 150%;
+	overflow: hidden;
+}
+
+#input,
+.output-box {
+	margin-top: 20px;
+	font-size: 400%;
+	border-color: black;
+}
+
+#input {
+	width: 170px;
+	border-radius: 6%;
+	background-color: transparent;
+	text-align: center;
+	border: 1px solid #220e01;
+	box-shadow: 1px 1px 1px transparent;
+}
+
+.convert-btn {
+	margin-top: 130px;
+}
+
+
